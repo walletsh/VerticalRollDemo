@@ -13,6 +13,9 @@
 		EE3E0BAC1E1259DC00292926 /* VerticalRollDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE3E0BAA1E1259DC00292926 /* VerticalRollDemo.xcdatamodeld */; };
 		EE3E0BAE1E1259DC00292926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3E0BAD1E1259DC00292926 /* Assets.xcassets */; };
 		EE3E0BB11E1259DC00292926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3E0BAF1E1259DC00292926 /* LaunchScreen.storyboard */; };
+		EE3E0BB91E1259FC00292926 /* VerticalRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E0BB81E1259FC00292926 /* VerticalRollView.swift */; };
+		EE3E0BBB1E12789D00292926 /* RollDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E0BBA1E12789D00292926 /* RollDetailViewController.swift */; };
+		EE3E0BBD1E127C2400292926 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E0BBC1E127C2400292926 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EE3E0BAD1E1259DC00292926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3E0BB01E1259DC00292926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE3E0BB21E1259DC00292926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3E0BB81E1259FC00292926 /* VerticalRollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalRollView.swift; sourceTree = "<group>"; };
+		EE3E0BBA1E12789D00292926 /* RollDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollDetailViewController.swift; sourceTree = "<group>"; };
+		EE3E0BBC1E127C2400292926 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		EE3E0BA21E1259DC00292926 /* VerticalRollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE3E0BBC1E127C2400292926 /* UIColor+Extension.swift */,
 				EE3E0BA31E1259DC00292926 /* AppDelegate.swift */,
 				EE3E0BA51E1259DC00292926 /* ViewController.swift */,
+				EE3E0BB81E1259FC00292926 /* VerticalRollView.swift */,
+				EE3E0BBA1E12789D00292926 /* RollDetailViewController.swift */,
 				EE3E0BA71E1259DC00292926 /* Main.storyboard */,
 				EE3E0BAD1E1259DC00292926 /* Assets.xcassets */,
 				EE3E0BAF1E1259DC00292926 /* LaunchScreen.storyboard */,
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					EE3E0B9F1E1259DC00292926 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9J6U5564X4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,6 +152,9 @@
 				EE3E0BA61E1259DC00292926 /* ViewController.swift in Sources */,
 				EE3E0BAC1E1259DC00292926 /* VerticalRollDemo.xcdatamodeld in Sources */,
 				EE3E0BA41E1259DC00292926 /* AppDelegate.swift in Sources */,
+				EE3E0BBD1E127C2400292926 /* UIColor+Extension.swift in Sources */,
+				EE3E0BB91E1259FC00292926 /* VerticalRollView.swift in Sources */,
+				EE3E0BBB1E12789D00292926 /* RollDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J6U5564X4;
 				INFOPLIST_FILE = VerticalRollDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imWallet.VerticalRollDemo;
@@ -274,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J6U5564X4;
 				INFOPLIST_FILE = VerticalRollDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imWallet.VerticalRollDemo;
@@ -301,6 +316,7 @@
 				EE3E0BB71E1259DC00292926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
